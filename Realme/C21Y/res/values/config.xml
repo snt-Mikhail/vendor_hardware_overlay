@@ -106,7 +106,6 @@
 	<public type="fraction" name="config_screenAutoBrightnessDozeScaleFactor" id="0x01130006" />
 	<public type="dimen" name="quick_qs_offset_height" id="0x01050217" />
 	<public type="array" name="config_availableColorModes" id="0x0107002a" />
-	<public type="bool" name="config_swipe_up_gesture_setting_available" id="0x011100fa" />
 	<public type="integer" name="config_bluetooth_max_connected_audio_devices" id="0x010e001c" />
 	<public type="bool" name="config_dozeSupportsAodWallpaper" id="0x01110068" />
 	<public type="bool" name="config_displayBrightnessBucketsInDoze" id="0x0111005f" />
@@ -383,7 +382,6 @@
 	<bool name="config_enableBurnInProtection">false</bool>
 	<bool name="config_enableFusedLocationOverlay">true</bool>
 	<bool name="config_enableNetworkLocationOverlay">true</bool>
-	<bool name="config_swipe_up_gesture_setting_available">true</bool>
 	<bool name="config_dozeSupportsAodWallpaper">true</bool>
 	<bool name="config_displayBrightnessBucketsInDoze">false</bool>
 	<bool name="config_fingerprintSupportsGestures">false</bool>
