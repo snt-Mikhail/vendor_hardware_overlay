@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+realme/RMX3263RU*"
+                android:requiredSystemPropertyValue="+realme/RMX3263*"
         android:priority="493"
         android:isStatic="true" />
 </manifest>
