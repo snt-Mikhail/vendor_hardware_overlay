@@ -256,11 +256,6 @@
 	<bool name="config_displayBrightnessBucketsInDoze">false</bool>
 	<bool name="config_fingerprintSupportsGestures">false</bool>
 
-	
-	<fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
-	<fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
-	<fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
-
 
 	<integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
 	<integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
@@ -301,21 +296,4 @@
 	<string name="config_cameraLaunchGestureSensorStringType" />
 	<string name="config_mainBuiltInDisplayCutout">M -38,0 L -38,64 L 38,64 L 38,0 Z</string>
 	<string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
-
-
-	<item type="dimen" name="status_bar_height_landscape">@dimen/status_bar_height_portrait</item>
-	<dimen name="status_bar_height_portrait">32.0dip</dimen>
-	<item type="dimen" name="status_bar_height">@dimen/status_bar_height_portrait</item>
-	<dimen name="navigation_bar_height">44.0dip</dimen>
-	<dimen name="navigation_bar_height_landscape">44.0dip</dimen>
-	<dimen name="navigation_bar_width">48.0dip</dimen>
-	<dimen name="notification_header_padding_top">16.0dip</dimen>
-	<dimen name="notification_header_padding_bottom">16.0dip</dimen>
-	<dimen name="rounded_corner_radius">0.0dip</dimen>
-	<dimen name="rounded_corner_radius_top">0.0dip</dimen>
-	<dimen name="rounded_corner_radius_bottom">0.0dip</dimen>
-	<dimen name="quick_qs_offset_height">48.0dip</dimen>
-	<item type="dimen" name="config_screenBrightnessSettingMaximumFloat">0.9103785</item>
-	<item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.003662109</item>
-
 </resources>
