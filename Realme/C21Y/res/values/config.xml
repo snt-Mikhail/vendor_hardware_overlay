@@ -111,8 +111,6 @@
 	<public type="array" name="config_virtualKeyVibePattern" id="0x010700a6" />
 	<public type="array" name="config_autoBrightnessDisplayValuesNits" id="0x01070017" />
 	<public type="array" name="config_screenBrightnessNits" id="0x01070089" />
-	<public type="array" name="config_defaultNotificationVibePattern" id="0x0107003d" />
-	<public type="array" name="config_ephemeralResolverPackage" id="0x01070054" />
 
 	
 
@@ -196,13 +194,6 @@
         	<item>469.02</item>
         	<item>509.58</item>
     	</array>
-	<integer-array name="config_defaultNotificationVibePattern">
-        	<item>0</item>
-        	<item>350</item>
-        	<item>250</item>
-        	<item>350</item>
-   	</integer-array>
-	<array name="config_ephemeralResolverPackage" />
 
 
 	<integer-array name="config_autoBrightnessLevels">
