@@ -5,9 +5,6 @@
 	<public type="integer" name="config_autoBrightnessBrighteningLightDebounce" id="0x010e0012" />
 	<public type="integer" name="config_autoBrightnessDarkeningLightDebounce" id="0x010e0013" />
 	<public type="integer" name="config_autoBrightnessInitialLightSensorRate" id="0x010e0014" />
-	
-	<public type="array" name="config_autoBrightnessLevels" id="0x01070021" />
-	
 	<public type="integer" name="config_autoBrightnessLightSensorRate" id="0x010e0015" />
 	<public type="bool" name="config_autoBrightnessResetAmbientLuxAfterWarmUp" id="0x01110028" />
 	<public type="integer" name="config_autoPowerModeAnyMotionSensor" id="0x010e0018" />
@@ -76,9 +73,6 @@
 	<public type="dimen" name="rounded_corner_radius" id="0x0105022e" />
 	<public type="dimen" name="rounded_corner_radius_top" id="0x01050232" />
 	<public type="dimen" name="rounded_corner_radius_bottom" id="0x01050230" />
-
-	<public type="array" name="config_screenBrightnessBacklight" id="0x01070081" />
-	
 	<public type="bool" name="config_enableBurnInProtection" id="0x01110074" />
 	<public type="integer" name="config_lightSensorWarmupTime" id="0x010e0067" />
 	<public type="bool" name="config_enableFusedLocationOverlay" id="0x01110078" />
@@ -103,6 +97,56 @@
 	<public type="dimen" name="config_screenBrightnessSettingMinimumFloat" id="0x010500bd" />
 	<public type="integer" name="config_defaultRefreshRate" id="0x010e003f" />
 	<public type="integer" name="config_defaultPeakRefreshRate" id="0x010e003d" />
+	<public type="array" name="config_autoBrightnessLevels" id="0x01070021" />
+	<public type="array" name="config_screenBrightnessBacklight" id="0x01070081" />
+	<public type="array" name="config_autoBrightnessButtonBacklightValues" id="0x01070016" />
+	<public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x01070020" />
+	<public type="array" name="config_autoBrightnessLevels" id="0x01070021" />
+	<public type="array" name="config_defaultPinnerServiceFiles" id="0x0107003e" />
+	<public type="array" name="config_keyboardTapVibePattern" id="0x01070065" />
+	<public type="array" name="config_longPressVibePattern" id="0x0107006a" />
+	<public type="array" name="config_tether_bluetooth_regexs" id="0x0107009d" />
+
+	
+
+	<array name="config_autoBrightnessButtonBacklightValues" />
+	<array name="config_autoBrightnessLcdBacklightValues" />
+	<integer-array name="config_autoBrightnessLevels">
+        	<item>1</item>
+        	<item>2</item>
+        	<item>3</item>
+        	<item>4</item>
+       		<item>8</item>
+        	<item>12</item>
+        	<item>20</item>
+       		<item>33</item>
+        	<item>55</item>
+        	<item>90</item>
+        	<item>105</item>
+        	<item>148</item>
+        	<item>245</item>
+        	<item>403</item>
+        	<item>665</item>
+        	<item>1097</item>
+       		<item>1808</item>
+        	<item>2981</item>
+        	<item>5000</item>
+        	<item>6000</item>
+        	<item>8000</item>
+        	<item>8600</item>
+        	<item>10000</item>
+    	</integer-array>
+	<array name="config_defaultPinnerServiceFiles" />
+	<integer-array name="config_keyboardTapVibePattern">
+        	<item>40</item>
+    	</integer-array>
+		<integer-array name="config_longPressVibePattern">
+        	<item>0</item>
+        	<item>1</item>
+        	<item>20</item>
+        	<item>21</item>
+    	</integer-array>
+	<array name="config_tether_bluetooth_regexs" />
 
 
 	<integer-array name="config_autoBrightnessLevels">
