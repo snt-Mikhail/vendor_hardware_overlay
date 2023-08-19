@@ -101,41 +101,19 @@
 	<public type="array" name="config_screenBrightnessBacklight" id="0x01070081" />
 	<public type="array" name="config_autoBrightnessButtonBacklightValues" id="0x01070016" />
 	<public type="array" name="config_autoBrightnessLcdBacklightValues" id="0x01070020" />
-	<public type="array" name="config_autoBrightnessLevels" id="0x01070021" />
 	<public type="array" name="config_defaultPinnerServiceFiles" id="0x0107003e" />
 	<public type="array" name="config_keyboardTapVibePattern" id="0x01070065" />
 	<public type="array" name="config_longPressVibePattern" id="0x0107006a" />
 	<public type="array" name="config_tether_bluetooth_regexs" id="0x0107009d" />
+	<public type="array" name="config_tether_upstream_types" id="0x0107009f" />
+	<public type="array" name="config_tether_usb_regexs" id="0x010700a0" />
+	<public type="array" name="config_tether_wifi_regexs" id="0x010700a1" />
+	<public type="array" name="config_virtualKeyVibePattern" id="0x010700a6" />
 
 	
 
 	<array name="config_autoBrightnessButtonBacklightValues" />
 	<array name="config_autoBrightnessLcdBacklightValues" />
-	<integer-array name="config_autoBrightnessLevels">
-        	<item>1</item>
-        	<item>2</item>
-        	<item>3</item>
-        	<item>4</item>
-       		<item>8</item>
-        	<item>12</item>
-        	<item>20</item>
-       		<item>33</item>
-        	<item>55</item>
-        	<item>90</item>
-        	<item>105</item>
-        	<item>148</item>
-        	<item>245</item>
-        	<item>403</item>
-        	<item>665</item>
-        	<item>1097</item>
-       		<item>1808</item>
-        	<item>2981</item>
-        	<item>5000</item>
-        	<item>6000</item>
-        	<item>8000</item>
-        	<item>8600</item>
-        	<item>10000</item>
-    	</integer-array>
 	<array name="config_defaultPinnerServiceFiles" />
 	<integer-array name="config_keyboardTapVibePattern">
         	<item>40</item>
@@ -147,6 +125,19 @@
         	<item>21</item>
     	</integer-array>
 	<array name="config_tether_bluetooth_regexs" />
+	<integer-array name="config_tether_upstream_types">
+        	<item>1</item>
+        	<item>7</item>
+        	<item>0</item>
+    	</integer-array>
+	<array name="config_tether_usb_regexs" />
+	<array name="config_tether_wifi_regexs" />
+	<integer-array name="config_virtualKeyVibePattern">
+        	<item>0</item>
+        	<item>10</item>
+        	<item>20</item>
+        	<item>30</item>
+    	</integer-array>
 
 
 	<integer-array name="config_autoBrightnessLevels">
